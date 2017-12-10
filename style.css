@@ -18,6 +18,7 @@ nav ul {list-style-type: none;
 }
 
 header {display: flex;
+        max-width: 100%;
 }
 
 
