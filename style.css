@@ -57,7 +57,15 @@ header {display: flex;
 
 main {margin: 1em;}
 
-footer {text-align: center;}
+footer {text-align: center;
+        background-color: #00ADEE;
+}
+
+footer p {color: white;
+}
+
+body {margin: 0;
+}
 
 /* HEADER */
 
