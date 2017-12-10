@@ -8,6 +8,7 @@ a {text-decoration: none;
 p, h1, h2, h3, ul {font-family: 'Catamaran', sans-serif;
                   font-size: 1.2em;
                   color: #808184;
+                  text-decoration: none;
 }
 
 * {box-sizing: border-box;
@@ -25,7 +26,7 @@ footer {text-align: center;}
 /* HEADER */
 
 .menubutton {width: 40px;
-            padding: 35px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
 
 }
 
@@ -44,6 +45,8 @@ header {display: flex;
 
 @media screen and (min-width: 800px) {
   .small-screen-menu {display: none;
+  }
+  .logo-stacked {width: 200px;
   }
 }
 
