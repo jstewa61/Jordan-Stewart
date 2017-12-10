@@ -2,13 +2,10 @@
 
 p {}
 
-a {text-decoration: none;
-}
-
-p, h1, h2, h3, ul {font-family: 'Catamaran', sans-serif;
-                  font-size: 1.2em;
-                  color: #808184;
-                  text-decoration: none;
+p, h1, h2, h3, ul, a {font-family: 'Catamaran', sans-serif;
+                    font-size: 1.2em;
+                    color: #808184;
+                    text-decoration: none;
 }
 
 * {box-sizing: border-box;
