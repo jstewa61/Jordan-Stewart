@@ -19,14 +19,12 @@ header {max-width: 100%;
         align-items: center;
 }
 
-main {margin: 1em;}
-
-footer {text-align: center;}
-
-/* HEADER */
+a:hover, a:active {text-decoration: underline;
+                  text-decoration-color: #00ADEE;
+}
 
 .menubutton {width: 40px;
-            padding: 0px 0px 0px 0px;
+            padding: 19px 0px 0px 0px;
 
 }
 
@@ -34,17 +32,10 @@ nav ul {list-style-type: none;
         text-align: right;
 }
 
-nav li {border-bottom: .5px solid #808184;
-}
-
 header {display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: white;
-}
-
-a:hover, a:active {text-decoration: underline;
-                  text-decoration-color: #00ADEE;
 }
 
 .logo-stacked {width: 160px;
@@ -60,7 +51,15 @@ a:hover, a:active {text-decoration: underline;
 @media screen and (max-width: 800px) {
   .large-screen-menu {display: none;
   }
+  nav li {border-bottom: .5px solid #808184;
+  }
 }
+
+main {margin: 1em;}
+
+footer {text-align: center;}
+
+/* HEADER */
 
 /* MAIN */
 
