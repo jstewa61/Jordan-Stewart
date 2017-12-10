@@ -23,10 +23,8 @@ header {display: flex;
 
 
 
-.logo-small {width: 50px;
-}
 
-.logo-type {width:350px;
+.logo-stacked {width:350px;
 }
 
 /* Nav script link */
