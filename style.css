@@ -3,7 +3,7 @@
 p {}
 
 a {text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p, h1, h2, h3, ul, a {font-family: 'Catamaran', sans-serif;
@@ -81,7 +81,7 @@ a.menu-link {
             max-height: 0;
         }
         nav[role=navigation].active {
-            max-height: 15em;
+            max-height: 25em;
         }
         nav[role=navigation] ul {
             margin: 0;
