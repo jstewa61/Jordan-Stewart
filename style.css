@@ -5,7 +5,7 @@ p {}
 a {text-decoration: none;
 }
 
-p, h1, h2, h3, li {font-family: 'Catamaran', sans-serif;
+p, h1, h2, h3, ul {font-family: 'Catamaran', sans-serif;
                   font-size: 1.2em;
                   color: #808184;
 }
@@ -14,10 +14,13 @@ p, h1, h2, h3, li {font-family: 'Catamaran', sans-serif;
 }
 
 header {max-width: 100%;
-        padding: 16px 16px 0px 16px;
+        padding: 5px 16px 0px 5px;
+        align-items: center;
 }
 
+main {margin: 1em;}
 
+footer {text-align: center;}
 
 /* HEADER */
 
@@ -37,6 +40,16 @@ header {display: flex;
 }
 
 .logo-stacked {width: 160px;
+}
+
+@media screen and (min-width: 800px) {
+  .small-screen-menu {display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .large-screen-menu {display: none;
+  }
 }
 
 
