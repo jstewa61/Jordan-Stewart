@@ -9,13 +9,23 @@ h1, h2, h3, li {}
 
 /* HEADER */
 
-.menubutton {width: 44px;}
+.menubutton {width: 44px;
+            float:right;
+}
 
 nav ul {list-style-type: none;
         text-align: right;
 }
 
-.logo-small {width: 70px;
+header {display: flex;
+}
+
+
+
+.logo-small {width: 50px;
+}
+
+.logo-type {width:350px;
 }
 
 /* Nav script link */
