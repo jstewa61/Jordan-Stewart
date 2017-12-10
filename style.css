@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 
-p {}
+p {padding: 0px 13px 0px 13px;}
 
 a {text-decoration: none;
   font-weight: 500;
@@ -24,7 +24,7 @@ a:hover, a:active {text-decoration: underline;
 }
 
 .menubutton {width: 40px;
-            padding: 19px 0px 0px 0px;
+            padding: 21px 0px 0px 0px;
 
 }
 
@@ -39,6 +39,7 @@ header {display: flex;
 }
 
 .logo-stacked {width: 160px;
+              padding: 0px 0px 0px 10px;
 }
 
 @media screen and (min-width: 800px) {
@@ -59,6 +60,7 @@ main {margin: 1em;}
 
 footer {text-align: center;
         background-color: #00ADEE;
+        padding: 5px 0px 17px 0px;
 }
 
 footer p {color: white;
