@@ -2,15 +2,20 @@
 
 p {}
 
+a {text-decoration: none;
+}
+
 h1, h2, h3, li {}
 
 * {
     box-sizing: border-box;}
 
+
 /* HEADER */
 
 .menubutton {width: 44px;
-            float:right;
+            padding: 35px 0px 0px 0px;
+
 }
 
 nav ul {list-style-type: none;
@@ -18,14 +23,15 @@ nav ul {list-style-type: none;
 }
 
 header {display: flex;
-        max-width: 100%;
+        justify-content: space-between;
+        background-color: white;
+}
+
+.logo-stacked {width: 160px;
 }
 
 
 
-
-.logo-stacked {width:350px;
-}
 
 /* Nav script link */
 
