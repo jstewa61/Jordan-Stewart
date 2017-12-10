@@ -1,3 +1,23 @@
+/* GLOBAL STYLES */
+
+p {}
+
+h1, h2, h3, li {}
+
+* {
+    box-sizing: border-box;}
+
+/* HEADER */
+
+.menubutton {width: 44px;}
+
+nav ul {list-style-type: none;
+        text-align: right;
+}
+
+.logo-small {width: 70px;
+}
+
 /* Nav script link */
 
 HTML  CSS  JS  Result
