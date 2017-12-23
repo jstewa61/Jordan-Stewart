@@ -69,11 +69,19 @@ footer p {color: white;
 body {margin: 0;
 }
 
+img {max-width: 100%;}
+
 /* HEADER */
 
 /* MAIN */
 
-
+@media screen and (min-width: 600px) {
+.text-flex, .top-book {display: flex;
+            align-items: center;
+}
+.top-book {flex-direction: row-reverse;
+}
+}
 
 /* FOOTER */
 
