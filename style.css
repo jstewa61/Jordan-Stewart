@@ -1,6 +1,7 @@
 /* GLOBAL STYLES */
 
-p {padding: 0px 13px 0px 13px;}
+p {padding: 50px 13px 50px 13px;
+}
 
 a {text-decoration: none;
   font-weight: 500;
@@ -69,17 +70,18 @@ footer p {color: white;
 body {margin: 0;
 }
 
-img {max-width: 100%;}
+img {
+    max-width: 100%;
+    padding: 20px 0px 20px 0px;
+}
 
 /* HEADER */
 
 /* MAIN */
 
-@media screen and (min-width: 600px) {
-.text-flex, .top-book {display: flex;
+@media screen and (min-width: 1000px) {
+.text-flex {display: flex;
             align-items: center;
-}
-.top-book {flex-direction: row-reverse;
 }
 }
 
