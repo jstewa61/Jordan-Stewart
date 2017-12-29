@@ -72,15 +72,15 @@ body {margin: 0;
 
 /* MAIN */
 
-.night, .outsiders {width: 100%;
-                    max-width: 100%;
-}
 
 .night-small {display: flex;
 }
 
 .wire, .dark {width: 50%;
               height: 100%;
+}
+
+img {max-width: 100%;
 }
 
 
