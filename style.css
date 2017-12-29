@@ -76,10 +76,11 @@ body {margin: 0;
 }
 
 .night-small {display: flex;
-              max-width: 100%;
-              
 }
 
+.wire, .dark {width: 50%;
+              height: 100%;
+}
 
 
 
