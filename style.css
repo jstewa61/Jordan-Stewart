@@ -61,7 +61,7 @@ main {margin: 1em;}
 
 footer {text-align: center;
         background-color: #00ADEE;
-        padding: 5px 0px 17px 0px;
+        padding: 5px 0px 10px 0px;
 }
 
 footer p {color: white;
@@ -70,19 +70,17 @@ footer p {color: white;
 body {margin: 0;
 }
 
-
-
-/* HEADER */
-
 /* MAIN */
 
-
+.night, .outsiders {width: 100%;
+}
 
 .night-small {display: flex;
+              max-width: 100%;
+              
 }
 
-.wire, .dark {width: 50%;
-}
+
 
 
 
