@@ -73,6 +73,7 @@ body {margin: 0;
 /* MAIN */
 
 .night, .outsiders {width: 100%;
+                    max-width: 100%;
 }
 
 .night-small {display: flex;
