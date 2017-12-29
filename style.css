@@ -48,6 +48,8 @@ header {display: flex;
   }
   .logo-stacked {width: 200px;
   }
+  main {margin: 5em;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -57,7 +59,8 @@ header {display: flex;
   }
 }
 
-main {margin: 1em;}
+main {margin: 1em;
+}
 
 footer {text-align: center;
         background-color: #00ADEE;
@@ -66,8 +69,16 @@ footer {text-align: center;
 
 footer p {color: white;
 }
+body {margin: 0 auto;
+}
 
-body {margin: 0;
+@media screen and (min-width: 900px) {
+  .night, .outsiders, .night-small {margin-left: 5em;
+      margin-right: 5em;
+  }
+  main {margin-left: 10em;
+        margin-right: 10em;
+  }
 }
 
 /* MAIN */
@@ -80,8 +91,7 @@ body {margin: 0;
               height: 100%;
 }
 
-img {max-width: 100%;
-}
+img {max-width: 100%;}
 
 
 
