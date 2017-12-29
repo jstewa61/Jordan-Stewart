@@ -70,24 +70,22 @@ footer p {color: white;
 body {margin: 0;
 }
 
-img {width: 100%;
-    max-width: 100%;
-    padding: 20px 0px 20px 0px;
-}
+
 
 /* HEADER */
 
 /* MAIN */
 
-@media screen and (min-width: 1000px) {
-.text-flex {display: flex;
-            align-items: flex-start;
+
+
+.night-small {display: flex;
 }
-.night, .outsiders {width: 50%;
+
+.wire, .dark {width: 50%;
 }
-img {padding: 20px 10px 20px 10px;
-}
-}
+
+
+
 
 /* FOOTER */
 
