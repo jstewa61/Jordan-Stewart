@@ -6,7 +6,7 @@ p, ul {padding: 10px 13px 10px 13px;
 
 ul {font-size: 1.35em;}
 
-p {font-size: 1.2em;}
+p {font-size: 1em;}
 
 
 h1, h2 {color: #19afe5;
@@ -35,7 +35,7 @@ a:hover, a:active {text-decoration: underline;
                   text-decoration-color: #00ADEE;
 }
 
-.menubutton {width: 40px;
+.menubutton {width: 34px;
             padding: 21px 0px 0px 0px;
 
 }
