@@ -20,7 +20,10 @@ a {text-decoration: none;
   color: #808184;
 }
 
-p, h1, h2, h3, ul, a {font-family: 'Catamaran', sans-serif;
+nav a{font-weight: 1000;
+}
+
+p, h1, h2, h3, ul, a, .overlay {font-family: 'Catamaran', sans-serif;
 }
 
 
@@ -34,8 +37,7 @@ header {max-width: 100%;
 
 /* NAVIGATION */
 
-a:hover, a:active {text-decoration: underline;
-                  text-decoration-color: #00ADEE;
+a:hover, a:active {color: #00ADEE;
 }
 
 
@@ -115,83 +117,52 @@ img {max-width: 100%;
     width: 100%;
 }
 
-@media screen and (min-width: 700px) {
-  .row {
-    display: flex;
-    justify-content: center;
-  }
-}
 
 /* landing page imgs */
 
-.container-fluid {
-  margin: 0 auto;
-}
+* {box-sizing: border-box}
 
 
+@media screen and (min-width: 650px) {
 
-.box {
-  max-width: 400px;
-  max-height: 300px;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-}
-
-  .imagetext {z-index: 2;
-              color: #fff;
+  .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flexbox;
+  display: flex;
   }
-
-
-.box1 {
-  background-color: #00ADEE;
 }
 
-.box2 {
-  background-color: #00ADEE;
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
 }
 
-.box3 {
-  background-color: #00ADEE;
-}
-
-.box4 {
-  background-color: #00ADEE;
-}
-
-.box5 {
-  background-color: #00ADEE;
-}
-
-.box6 {
-  background-color: #00ADEE;
-}
-
-.landingimg:hover {
-  opacity: .50;
-  overflow: hidden;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -moz-transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25);
-  transition-timing-function: ease-in;
-  transition: 1.5s;
-}
-
-.landingimg {
-  opacity: 1;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  transition-timing-function: ease-in;
-  transition: .5s;
+/* Make the image to responsive */
+.image {
+  display: inline-block;
+  width: 100%;
   height: 100%;
-  max-width: 420px;
-  height: auto;
-  z-index: 1;
 }
 
-.container-fluid {padding-bottom: 3em;
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: #00ADEE;
+  color: #00ADEE;
+  width: 100%;
+  transition: .7s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.container:hover .overlay {
+  opacity: .7;
 }
 
 /* FOOTER */
