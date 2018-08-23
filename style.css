@@ -4,7 +4,9 @@ p {padding: 10px 13px 10px 13px;
       color: #808184;
 }
 
-ul {font-size: 1.35em;}
+ul {font-size: 1.35em;
+    list-style-type: none;
+}
 
 p {font-size: 1.2em;}
 
