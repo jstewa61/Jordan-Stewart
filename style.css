@@ -123,20 +123,24 @@ img {max-width: 100%;
 
 /* landing page imgs */
 
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  flex: 1;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
 
 * {box-sizing: border-box}
 
 
-@media screen and (min-width: 650px) {
 
-  .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flexbox;
-  display: flex;
-  }
-}
 
 .container {
   position: relative;
@@ -144,7 +148,7 @@ img {max-width: 100%;
   max-width: 650px;
 }
 
-.projects {padding: 0px 0px 100px 0px;
+.index {padding: 0px 0px 100px 0px;
 }
 
 /* Make the image to responsive */
@@ -166,10 +170,8 @@ img {max-width: 100%;
   font-size: 20px;
   padding: 25px 25px 25px 25px;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
-
-
 
 
 .container:hover .overlay {
@@ -177,7 +179,6 @@ img {max-width: 100%;
 }
 
 /* FOOTER */
-
 
 
 /* Nav script link */
