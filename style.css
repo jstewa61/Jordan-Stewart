@@ -93,7 +93,7 @@ body {margin: 0 auto;
 }
 
 @media screen and (min-width: 900px) {
-  .night, .outsiders, .night-small {margin-left: 5em;
+  .night, .outsiders, .phototop {margin-left: 5em;
       margin-right: 5em;
   }
   main {margin-left: 10em;
@@ -104,17 +104,17 @@ body {margin: 0 auto;
 /* MAIN */
 
 
-.night-small {display: flex;
-              padding-bottom: 5em;
+.phototop {display: flex;
+          padding-bottom: 5em;
 }
 
-.wire, .dark {width: 50%;
+.photoleft, .photoright {width: 50%;
               height: 100%;
 }
 
-.wire {padding-right: .1em;}
+.photoleft {padding-right: .1em;}
 
-.dark {padding-left: .1em;}
+.photoright {padding-left: .1em;}
 
 img {max-width: 100%;
     width: 100%;
@@ -143,6 +143,9 @@ img {max-width: 100%;
   max-width: 650px;
 }
 
+.projects {padding-bottom: 100px;
+}
+
 /* Make the image to responsive */
 .img {
   display: inline-block;
@@ -156,11 +159,11 @@ img {max-width: 100%;
   background: #00ADEE;
   color: #00ADEE;
   width: 100%;
-  transition: .7s ease;
+  transition: .1s ease;
   opacity:0;
   color: white;
   font-size: 20px;
-  padding: 20px;
+  padding: 25px;
   text-align: left;
 }
 
