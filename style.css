@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 
-p {padding: 10px 13px 10px 13px;
+p {padding: 15px 20px 15px 20px;
       color: #808184;
 }
 
@@ -123,6 +123,7 @@ img {max-width: 100%;
 
 /* landing page imgs */
 
+
 * {box-sizing: border-box}
 
 
@@ -143,7 +144,7 @@ img {max-width: 100%;
   max-width: 650px;
 }
 
-.projects {padding-bottom: 100px;
+.projects {padding: 0px 0px 100px 0px;
 }
 
 /* Make the image to responsive */
@@ -163,13 +164,12 @@ img {max-width: 100%;
   opacity:0;
   color: white;
   font-size: 20px;
-  padding: 25px;
+  padding: 25px 25px 25px 25px;
   text-align: left;
+  font-size: 1.2em;
 }
 
-li img {height: 100%;
 
-}
 
 
 .container:hover .overlay {
