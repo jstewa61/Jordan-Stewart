@@ -127,7 +127,7 @@ img {max-width: 100%;
   display: flex;
   flex-direction: row;
 }
-.col {
+.col, .col2 {
   flex: 1;
 }
 
@@ -205,6 +205,10 @@ img {max-width: 100%;
 
 .row1, .row2 {padding: 1px;
 }
+
+.col2 {padding: 5px;
+}
+
 
 
 
