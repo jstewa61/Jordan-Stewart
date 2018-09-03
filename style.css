@@ -127,7 +127,7 @@ img {max-width: 100%;
   display: flex;
   flex-direction: row;
 }
-.col, .col2 {
+.col {
   flex: 1;
 }
 
@@ -138,8 +138,6 @@ img {max-width: 100%;
 }
 
 * {box-sizing: border-box}
-
-
 
 
 .container {
@@ -206,9 +204,25 @@ img {max-width: 100%;
 .row1, .row2 {padding: 1px;
 }
 
-.col2 {padding: 5px;
+
+
+@media screen and (min-width: 500px){
+  .flex-grid2 {display: flex;
+    flex-direction: row;
+  }
+  .col2 {
+    flex: 1;
+  }
 }
 
+@media screen and (max-width: 500px){
+  .flex-grid3 {display: flex;
+    flex-direction: row;
+  }
+  .col2 {
+    flex: 1;
+  }
+}
 
 
 
