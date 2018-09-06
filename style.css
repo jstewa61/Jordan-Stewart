@@ -9,7 +9,9 @@ ul {font-size: 1.35em;
     padding: 0;
 }
 
-p {font-size: 1.2em;}
+p {font-size: 1.2em;
+  line-height: 1.4em;
+}
 
 
 h1, h2 {color: #19afe5;
@@ -26,7 +28,8 @@ a {text-decoration: none;
 nav a{font-weight: 1000;
 }
 
-p, h1, h2, h3, ul, a, .overlay {font-family: 'Catamaran', sans-serif;
+
+p, h1, h2, h3, ul, a, .overlay {font-family: 'Open Sans', sans-serif;
 }
 
 
