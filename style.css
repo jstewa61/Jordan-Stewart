@@ -9,10 +9,15 @@ ul {font-size: 1.35em;
     padding: 0;
 }
 
-p {font-size: 1.2em;
-  line-height: 1.4em;
+p {font-size: 1.1em;
+  line-height: 1.5em;
 }
 
+@media screen and (min-width: 500px){
+  p {font-size: 1.2em;
+    line-height: 1.5em;
+  }
+}
 
 h1, h2 {color: #19afe5;
         padding: 0px 13px 0px 13px;
@@ -29,7 +34,7 @@ nav a{font-weight: 1000;
 }
 
 
-p, h1, h2, h3, ul, a, .overlay {font-family: 'Open Sans', sans-serif;
+p, h1, h2, h3, ul, a, .overlay {font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -40,6 +45,7 @@ header {max-width: 100%;
         padding: 5px 16px 0px 5px;
         align-items: center;
 }
+
 
 /* NAVIGATION */
 
@@ -83,6 +89,7 @@ header {display: flex;
 }
 
 main {margin: 1em;
+      max-width: 1900px;
 }
 
 footer {text-align: center;
@@ -134,8 +141,7 @@ img {max-width: 100%;
 a:hover.speciallink {color: #808184;
 }
 
-.illustration {padding-bottom: 100px;
-}
+
 
 
 .contactform {
@@ -171,7 +177,7 @@ a:hover.speciallink {color: #808184;
   margin: 0px;
 }
 
-.index {padding: 0px 0px 100px 0px;
+.index, .illustration, .softball, .catscradle, .reel {padding: 0px 0px 100px 0px;
 }
 
 .img {
@@ -215,15 +221,12 @@ a:hover.speciallink {color: #808184;
 /* page photos and videos */
 
 
-.catscradle, .reel {padding-bottom: 100px;
-}
 
 .photogrid {display: flex;
   flex-direction: row;
 }
 
-.photogrid img {padding: 1px;
-}
+
 
 .row1, .row2 {padding: 1px;
 }
