@@ -8,3 +8,8 @@ $menulink.click(function() {
   $menu.toggleClass('active');
   return false;
 });});
+
+$(".container").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
