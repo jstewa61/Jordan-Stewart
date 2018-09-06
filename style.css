@@ -123,10 +123,22 @@ img {max-width: 100%;
 }
 
 .speciallink {
-              font-weight: 400;
+              font-weight: 900;
+              display: inline;
+              color: #00ADEE;
+}
+
+a:hover.speciallink {color: #808184;
 }
 
 .illustration {padding-bottom: 100px;
+}
+
+
+.contactform {
+  margin: auto;
+
+  display: block;
 }
 
 
@@ -222,6 +234,22 @@ img {max-width: 100%;
   }
 }
 
+.me {width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 900px;
+}
+
+@media screen and (min-width:450px){
+  .me {width:70%;
+  }
+}
+
+@media screen and (min-width:900px){
+  .me {width:45%;
+  }
+}
+
 
 
 /* FOOTER */
@@ -238,11 +266,11 @@ a.menu-link {
         }
         nav[role=navigation] {
             clear: both;
-            -webkit-transition: all 0.3s ease-out;
-            -moz-transition: all 0.3s ease-out;
-            -ms-transition: all 0.3s ease-out;
-            -o-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
+            -webkit-transition: all 0.8s ease-out;
+            -moz-transition: all 0.8s ease-out;
+            -ms-transition: all 0.8s ease-out;
+            -o-transition: all 0.8s ease-out;
+            transition: all 0.8s ease-out;
         }
         .js nav[role=navigation] {
             overflow: hidden;
