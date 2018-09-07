@@ -60,6 +60,7 @@ a:hover, a:active {color: #00ADEE;
 
 nav ul {list-style-type: none;
         text-align: right;
+        font-weight: 300;
 }
 
 header {display: flex;
@@ -228,7 +229,9 @@ a:hover.speciallink {color: #808184;
 
 /* page photos and videos */
 
-
+.aroma {padding-left: 30%;
+        padding-right: 30%;
+}
 
 .photogrid {display: flex;
   flex-direction: row;
