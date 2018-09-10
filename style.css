@@ -104,13 +104,14 @@ body {margin: 0 auto;
 }
 
 @media screen and (min-width: 900px) {
-  .night, .outsiders, .phototop,.photogrid, .simplegrid {margin-left: 5em;
-      margin-right: 5em;
+  .night, .outsiders, .phototop,.photogrid, .simplegrid {margin-left: 7%;
+      margin-right: 7%;
   }
-  main {margin-left: 10em;
-        margin-right: 10em;
+  main {margin-left: 17%;
+        margin-right: 17%;
   }
 }
+
 
 
 
