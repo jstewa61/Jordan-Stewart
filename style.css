@@ -69,6 +69,12 @@ header {display: flex;
         background-color: white;
 }
 
+.insta {width: 25px;
+}
+
+.instalink {padding-top: 10px;
+}
+
 .logo-stacked {width: 160px;
               padding: 0px 0px 0px 15px;
 }
