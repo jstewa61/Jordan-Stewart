@@ -13,3 +13,12 @@ $(".container").click(function() {
   window.location = $(this).find("a").attr("href");
   return false;
 });
+
+$('#.container').bind('touchstart', function() {
+        $(this).removeAttr('style').css('bottom','244px');
+        $(this).addClass('hover_effect');
+});
+
+$('#.container').bind('touchend', function() {
+        $(this).removeClass('hover_effect');
+});
