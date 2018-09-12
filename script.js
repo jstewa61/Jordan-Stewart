@@ -14,11 +14,4 @@ $(".container").click(function() {
   return false;
 });
 
-$('#.container').bind('touchstart', function() {
-        $(this).removeAttr('style').css('bottom','244px');
-        $(this).addClass('hover_effect');
-});
-
-$('#.container').bind('touchend', function() {
-        $(this).removeClass('hover_effect');
-});
+$('.container').on('touchstart', function() {});
