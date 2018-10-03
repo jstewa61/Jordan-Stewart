@@ -1,7 +1,7 @@
 /* GLOBAL STYLES */
 
 p {padding: 25px 20px 25px 20px;
-      color: #808184;
+      color: #686E6E;
 }
 
 ul {font-size: 1.35em;
@@ -27,7 +27,7 @@ h1, h2 {color: #19afe5;
 
 a {text-decoration: none;
   font-weight: 500;
-  color: #808184;
+  color: #686E6E;
 }
 
 nav a{font-weight: 1000;
