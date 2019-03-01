@@ -1,7 +1,10 @@
 /* GLOBAL STYLES */
 
-p {padding: 25px 20px 25px 20px;
+p, .bigpics {padding: 25px 20px 25px 20px;
       color: #686E6E;
+}
+
+.bigpics {padding: 5px 0px 5px 0px;
 }
 
 ul {font-size: 1.35em;
@@ -107,6 +110,7 @@ footer {text-align: center;
 footer p {color: white;
 }
 body {margin: 0 auto;
+      max-width: 1300px;
 }
 
 @media screen and (min-width: 900px) {
@@ -193,7 +197,7 @@ a:hover.speciallink {color: #808184;
   margin: 0px;
 }
 
-.index, .illustration, .softball, .catscradle, .reel {padding: 0px 0px 100px 0px;
+.index, .illustration, .softball, .catscradle, .reel, .pangea-video {padding: 0px 0px 100px 0px;
 }
 
 .img {
