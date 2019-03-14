@@ -200,7 +200,7 @@ a:hover.speciallink {color: #808184;
   margin: 0px;
 }
 
-.index, .illustration, .softball, .catscradle, .reel, .pangea-video {padding: 0px 0px 100px 0px;
+.index, .illustration, .softball, .catscradle, .reel, .pangea-video, .omnisocks-video{padding: 0px 0px 100px 0px;
 }
 
 .img {
@@ -250,7 +250,9 @@ a:hover.speciallink {color: #808184;
 .photogrid {display: flex;
   flex-direction: row;
 }
+.sockpattern {padding: 75px 0px 75px 0px}
 
+.img-line {padding: 75px 0px 75px 0px}
 
 
 .row1, .row2 {padding: 1px;
