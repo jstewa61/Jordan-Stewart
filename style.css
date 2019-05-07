@@ -287,6 +287,23 @@ a:hover.speciallink {color: #808184;
 .icecream {padding-bottom: 100px;
 }
 
+/* Pinterest */
+
+.super-responsive-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.board-wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.board-wrapper span {
+  overflow: hidden;
+  max-width: 100%!important;
+}
+
 /* FOOTER */
 
 
