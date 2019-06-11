@@ -109,13 +109,15 @@ main {margin: 1em;
 footer {text-align: center;
         background-color: #00ADEE;
         padding: 5px 0px 10px 0px;
+        width: 100%;
 }
 
 footer p {color: white;
 }
-body {margin: 0 auto;
-      max-width: 1300px;
+.page-wrapper {margin: 0 auto;
+              max-width: 1300px;
 }
+
 
 @media screen and (min-width: 900px) {
   .night, .outsiders, .phototop,.photogrid, .simplegrid {margin-left: 7%;
