@@ -6,6 +6,7 @@ autoplay: true,
 path: 'data.json'
 })
 
+
 $(document).ready(function() {
   $('body').addClass('js');
   var $menu = $('#menu'),
