@@ -102,20 +102,21 @@ header {display: flex;
   }
 }
 
-main {margin: 1em;
-      max-width: 1300px;
-}
+
 
 footer {text-align: center;
         background-color: #00ADEE;
         padding: 5px 0px 10px 0px;
+        width: 100%;
 }
 
 footer p {color: white;
 }
-body {margin: 0 auto;
-      max-width: 1300px;
+.page-wrapper {margin: 0 auto;
+              max-width: 1300px;
 }
+
+body {margin: 0 auto;}
 
 @media screen and (min-width: 900px) {
   .night, .outsiders, .phototop,.photogrid, .simplegrid {margin-left: 7%;
