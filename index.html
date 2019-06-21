@@ -6,7 +6,6 @@
     <title>Jordan Stewart</title>
 
 
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Jordan Stewart Design Portfolio">
     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
@@ -70,8 +69,10 @@
       </nav>
     </main>
 
-<div id="anim">
-</div>
+    <div class="bgAnim">
+      <i id="command"></i>
+    </div>
+
 
 
     <!--Section 1-->
@@ -208,9 +209,20 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="script.js"></script>
-    <script src="lottie.js"></script>
 
 
+    <script>
+
+    var headerAnim = bodymovin.loadAnimation({
+       container: document.getElementById('command'),
+       renderer: 'svg',
+       loop: false,
+       autoplay: true,
+       path: './images/logo anim/header anim.json'
+     })
+
+
+    </script>
 
 
 
