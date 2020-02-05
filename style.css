@@ -19,7 +19,7 @@ p {font-size: 1.1em;
   line-height: 1.5em;
 }
 
-.bold {font-weight: 600;
+.bold {font-weight: 900;
 }
 
 @media screen and (min-width: 500px){
