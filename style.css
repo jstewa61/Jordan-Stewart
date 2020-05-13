@@ -136,6 +136,9 @@ body {margin: 0 auto;}
 /* MAIN */
 
 
+.adobe-plugin{display: block;
+}
+
 .phototop {display: flex;
           padding-bottom: 5em;
 }
