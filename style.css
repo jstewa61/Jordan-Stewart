@@ -136,7 +136,8 @@ body {margin: 0 auto;}
 /* MAIN */
 
 
-.adobe-plugin{display: block;
+.adobe-plugin{margin-top: -250px;
+              margin-bottom: -250px;
 }
 
 .phototop {display: flex;
