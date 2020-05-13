@@ -28,11 +28,18 @@ p {font-size: 1.1em;
   }
 }
 
-h1, h2 {color: #19afe5;
+h1, h2 {
         padding: 0px 13px 0px 13px;
         font-weight: 600;
         text-align: center;
 }
+
+h1 {color: #19afe5;
+}
+
+h2 {color: #10769c;
+}
+
 
 a {text-decoration: none;
   font-weight: 500;
